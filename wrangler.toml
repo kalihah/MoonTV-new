@@ -2,3 +2,12 @@ name = "moontv-new"
 compatibility_date = "2026-07-13"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tv-sql"
+database_id = "cc2705bd-1218-412d-bfbc-5cce6735af06"
+
+[vars]
+NEXT_PUBLIC_STORAGE_TYPE = "d1"
+USERNAME = "CaptainX"
